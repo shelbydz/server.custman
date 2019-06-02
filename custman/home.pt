@@ -13,6 +13,9 @@
   </head>
   <body>
     <h1>Body Template</h1>
-    <side-nav></side-nav>
+    <div uk-grid>
+      <div class="uk-width-1-6"><side-nav></side-nav></div>
+      <div><home-view></home-view></div>
+    </div>
   </body>
 </html>
