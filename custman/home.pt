@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='en' ng-app='app'>
   <head>
     <title>Customer Manager</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit-core-rtl.css" type="text/css" rel="stylesheet"></link>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
     <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
     <!-- Add Firebase products that you want to use -->
     <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-auth.js"></script>
+    <script src="static/app/app.js"></script>
+    <script src="static/app/components.js"></script>
   </head>
   <body>
     <h1>Body Template</h1>
+    <side-nav></side-nav>
   </body>
 </html>
